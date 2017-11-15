@@ -1,0 +1,42 @@
+.title {
+	height: 75px;
+	text-align: center;
+}
+.slideshow {
+	background-color: gray;
+	height: 450px;
+}
+#daca {
+	background-color: #6302D0;
+	color: white;
+	font-weight: 5px;
+}
+/*#chart {*/
+	/*background-color: #8EA4FF;*/
+	/*height: 300px;*/
+	/*text-align: center;*/
+}
+.time {
+	color: #4E1282;
+	text-align: center;
+}
+.year {
+	background-color: #0B0033;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.year:hover{
+	background-color: #A640FF;
+}
+.circle {
+  width: 7%;
+  background-color: #B59194;
+  margin: 5px 5px 5px 5px;
+}
+.icons {
+	width:1em; 
+	height:1em; 
+
+}
