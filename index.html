@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="DACAinteractive.css">
+		<title>
+			DACA Interactive
+		</title>
+	</head>
+	
+<body class="container-fluid">
+		<div class="row">
+			<div class="col-12 title" id="daca">
+				<h2> The Cost of Being Undocumented</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class=" col-12 slideshow">
+				This is where the video will go
+			</div>
+		</div>
+<br>
+		<div class="row">
+			<div class="col-1">
+			</div>
+			<div class="col-10">
+				Almost 800,000 undocumented immigrants are enrolled in DACA, and 736,702 are going to lose it because of an announcement Donald Trump made in September. Only about 63,000 DACA applicants have the possibility of staying enrolled because they have submitted requests for renewal. DACA allows undocumented immigrants to get jobs, a driver's license, and get a social security card. 
+			</div>
+		</div>
+<br>
+		<div class="title">
+				<h1>
+					Subtitle
+				</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-1">	
+			</div>
+			<div class="col-10">
+				This graph shows the number of people who have lost DACA, people who will lose it, and the number of people who re-applied and are waiting to see if they’re application will be approved. 
+
+			</div>
+			</div>
+		</div>
+<br>
+		<div>
+			<h1 class="title">
+				2017
+			</h1>
+		</div>
+		<div class="row">
+			<div class="col-2">
+			</div>
+			<div class="col-8">
+				<div id="chart" class="d-flex align-content-between flex-wrap">
+					<div id="circle-ref"  class="p-2 rounded-circle circle">
+						<img src="686941-user_people_man_human_head_person-512.png" class="icons">
+				</div>
+				</div>
+			</div>
+			<div class="col-2">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-2">
+			</div>
+			<div class="col-8">
+				1 circle is 10,000 people.
+			</div>
+			<div class="col-2">
+			</div>
+		</div>
+<br>
+
+		<div class="row">
+			<div class="col-2">
+			</div>
+			<div class="col-8" id="demo">
+				
+			</div>
+			<div class="col-2">
+			</div>
+		</div>
+<br>
+	
+		<div class="row mb-5">
+			<div class="col-lg-2 col-sm-6">
+			</div>
+			<div class="col-lg-2 col-sm-6">
+				<button type="button" class="btn year" onclick="myFunction()"> Today </button>
+			</div>
+			<div class="col-lg-2 col-sm-6" id="year">
+				<button type="button" class="btn year" onclick="myFunction2()"> 2017 </button>
+			</div>
+			<div class="col-lg-2 col-sm-6">
+				<button type="button" class="btn year" onclick="myFunction3()"> 2018 </button>
+			</div>
+			<div class="col-lg-2 col-sm-6">
+				<button type="button" class="btn year" onclick="myFunction4()"> 2019 </button>
+			</div>
+			<div class="col-lg-2 col-sm-6">
+			</div>
+		</div>
+<script type="text/javascript">
+	var circle = document.getElementById("circle-ref");
+	var chartbox = document.getElementById("chart");
+	for(var count = 0; count <80; count ++){
+		var clonedcircle = circle.cloneNode(true);
+		chartbox.appendChild(clonedcircle);
+	}
+ </script>
+
+<script src="script.js"></script>
+</body>
+</html>
